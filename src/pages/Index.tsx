@@ -1,14 +1,37 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import LandingScreen from "@/components/LandingScreen";
+import LetterScreen from "@/components/LetterScreen";
 
-const Index = () => {
+type Screen = "landing" | "dissolving" | "letter";
+
+export default function Index() {
+  const [screen, setScreen] = useState<Screen>("landing");
+  const [opacity, setOpacity] = useState(1);
+
+  const handleOpen = () => {
+    // Begin dissolve: fade out landing
+    setOpacity(0);
+    // After fade out, switch screen
+    setTimeout(() => {
+      setScreen("letter");
+      setOpacity(1);
+    }, 1800);
+    setScreen("dissolving");
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div
+      style={{
+        transition: "opacity 1.8s ease-in-out",
+        opacity,
+        minHeight: "100vh",
+      }}
+    >
+      {screen === "landing" || screen === "dissolving" ? (
+        <LandingScreen onOpen={handleOpen} />
+      ) : (
+        <LetterScreen />
+      )}
     </div>
   );
-};
-
-export default Index;
+}
