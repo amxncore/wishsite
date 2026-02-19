@@ -39,7 +39,7 @@ export default function LetterScreen() {
           — a letter, unscheduled —
         </p>
 
-        {/* Salutation */}
+        {/* Salutation Header */}
         <p
           className="letter-paragraph mb-10 italic text-3xl font-light"
           style={{
@@ -47,7 +47,7 @@ export default function LetterScreen() {
             lineHeight: 1.55,
           }}
         >
-          Happy birthday.
+          hon,
         </p>
 
         <div
@@ -59,92 +59,70 @@ export default function LetterScreen() {
           }}
         >
           <p className="letter-paragraph mb-8">
-            I've been thinking about what to say — and I keep coming back to
-            something very simple: I think you deserve a day that feels like
-            yours. Not performed for anyone. Not earned. Just — yours. So that's
-            what this is. A small corner of the internet that exists only because
-            you exist.
+            Some connections do not arrive with noise. They settle in quietly. One
+            day you realize they have become part of your everyday, and you cannot
+            remember when that shift happened.
           </p>
 
           <p className="letter-paragraph mb-8">
-            You know what's actually rare? Someone who says{" "}
+            The 14th was ordinary on paper. Yet since then, our words have found
+            each other every single day. Not out of obligation. Not out of
+            planning. Just naturally. And there is something very beautiful about
+            that.
+          </p>
+
+          <p className="letter-paragraph mb-8">
+            Thank you for the way you show up in conversations. For listening
+            beyond words. For understanding without making someone explain
+            themselves into exhaustion. When you once said,{" "}
             <em
               style={{
                 color: "hsl(42, 35%, 76%)",
                 fontStyle: "italic",
               }}
             >
-              "you don't need to overexplain anything — I understand you"
+              “You don’t need to overexplain. I understand,”
             </em>{" "}
-            and means it. Not as a way to move the conversation forward. Not as
-            reassurance. But because they actually do. Because they've been
-            paying attention. That kind of understanding is quieter than people
-            think. It doesn't announce itself. It just makes you feel like you
-            can breathe a little more easily in someone's presence.
+            it carried more weight than you probably intended. Being understood
+            without defense is a rare form of safety. You offer it gently, as if it
+            costs you nothing.
           </p>
 
           <p className="letter-paragraph mb-8">
-            You write poetry. I find that telling — not as a hobby, but as a
-            window. People who write poetry have already made peace with the
-            fact that some things can't be said directly. They know how to hold
-            something fragile without crushing it or letting it fall. Your
-            presence works the same way. You don't rush things. You don't force
-            clarity where there isn't any. You sit with complexity the way a
-            good line of verse does — not explaining it, just illuminating it
-            from a careful angle.
+            I admire that about you.
           </p>
 
           <p className="letter-paragraph mb-8">
-            I think the world undervalues quiet emotional intelligence. It gets
-            mistaken for aloofness, or for being "fine." But it's not fine —
-            it's attentive. It's the kind of awareness that notices when someone
-            shifts in the middle of a sentence. That doesn't fix things
-            unnecessarily. That knows the difference between what someone is
-            saying and what they actually need to hear. You have that. It's not
-            small.
+            There is a steadiness in you. A pause before you speak. A calm even
+            when your thoughts are racing ahead. You write poetry, but more than
+            that, you embody it. In your softness. In your quiet strength. In the
+            way you reassure without making it theatrical.
           </p>
 
           <p className="letter-paragraph mb-8">
-            There's a warmth to you that doesn't perform itself. It doesn't
-            arrive with fanfare. It's more like walking into a room and noticing
-            the light has changed — softer, slightly golden, easy on the eyes.
-            That's the best way I can describe it. Some people fill a room by
-            being loud. You do it by making the room feel like it's okay to be
-            exactly what you are inside it.
+            You love sunflowers. They do not chase light anxiously. They simply
+            turn toward it when it is there. Grounded. Certain of their nature.
+            There is something in that which feels familiar when I think of you.
           </p>
 
           <p className="letter-paragraph mb-8">
-            Birthdays have a strange gravity. They make you aware of time —
-            which can feel heavy if you let it. But I hope this one feels light.
-            I hope today carries that particular quality of an afternoon where
-            you're not waiting for anything. Where you're just — present. Warm.
-            Unhurried. I hope you eat something you genuinely love. I hope you
-            laugh at something unexpected. I hope someone says your name today
-            in a way that sounds like they mean it.
+            If this message could be anything this morning, I hope it feels like a
+            gentle presence beside you. Not loud. Not demanding. Just warm. Like
+            something that quietly reminds you that you are valued exactly as you
+            are.
           </p>
 
           <p className="letter-paragraph mb-8">
-            You deserve to be seen clearly — not idealized, not diminished. Just
-            seen. For the specific, irreplaceable, quietly remarkable person that
-            you are. The one who reads between the lines. The one who makes
-            space. The one who, in the middle of her own difficult moments,
-            still finds a way to notice yours.
+            On your birthday, I hope this year gives you clarity. I hope it gives
+            you gentleness. I hope it meets you with the same steadiness you carry
+            within yourself without even trying.
           </p>
 
           <p className="letter-paragraph mb-8">
-            I don't have predictions to make, or grand declarations to offer.
-            What I have is this: an honest, unhurried recognition of who you are.
-            And the certainty that whoever gets to know you — really know you —
-            is lucky in a way they probably don't have the right words for yet.
+            Thank you for being part of my everyday in a way that feels simple and
+            real.
           </p>
 
-          <p className="letter-paragraph mb-8">
-            Today is yours. All of it. The hours you spend alone. The ones you
-            share. The quiet ones. The ones that catch you off guard. Let them
-            all be yours.
-          </p>
-
-          {/* Closing */}
           <p
             className="letter-paragraph mt-16 italic text-xl leading-relaxed"
             style={{
@@ -153,21 +131,7 @@ export default function LetterScreen() {
               lineHeight: 1.65,
             }}
           >
-            Some people leave a mark on a day just by being in it.
-            <br />
-            You are that kind of person.
-            <br />
-            <span
-              style={{
-                display: "block",
-                marginTop: "1.2rem",
-                color: "hsl(38, 30%, 64%)",
-                fontSize: "1rem",
-                letterSpacing: "0.04em",
-              }}
-            >
-              Happy birthday.
-            </span>
+            Happy Birthday, sunflower. 🌻
           </p>
         </div>
 
