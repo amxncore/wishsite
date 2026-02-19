@@ -11,13 +11,15 @@ export default function LandingScreen({ onOpen }: LandingScreenProps) {
       style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
     >
       {/* Background */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: `url(${sunflowerBg})`,
-          filter: "brightness(0.72) saturate(0.65) sepia(0.28)",
-        }}
-      />
+      <div className="absolute inset-[-8%] overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center sunflower-sway"
+          style={{
+            backgroundImage: `url(${sunflowerBg})`,
+            filter: "brightness(0.72) saturate(0.65) sepia(0.28)",
+          }}
+        />
+      </div>
 
       {/* Warm overlay wash */}
       <div
