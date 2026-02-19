@@ -8,8 +8,9 @@ export default function LetterScreen() {
     >
       {/* Background — slightly dimmed for readability */}
       <div
-        className="fixed inset-0"
+        className="fixed sunflower-sway"
         style={{
+          inset: "-8%",
           backgroundImage: `url(${sunflowerBg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
